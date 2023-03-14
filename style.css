@@ -34,7 +34,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px;
+  margin: 15px;
   min-height: 300px;
   flex-wrap: wrap;
 }
@@ -52,10 +52,11 @@ main {
 }
 .more3 {
   height: 100px;
-  flex-basis: 90%;
+  flex-basis: 100%;
   display: flex;
   background-color: rgb(233, 199, 135);
   order: 3;
+  align-self: center;
 }
 .aside {
   flex-basis: 35%;
